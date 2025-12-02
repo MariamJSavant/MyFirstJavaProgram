@@ -23,22 +23,49 @@ public class Variable {
         int year =2025;
         int quantity = 1;
 
-        System.out.println("The year is "+ year);
+
         double price = 19.99;
         double GPA = 3.5;
         double temperature = -12.5;
-        System.out.println("$ "+price);
+
         char grade ='A';
         char symbol ='!';
         char currency = '$';
-        System.out.println(grade);
-        boolean isStudent = true;
-        boolean forSale = false;
-        boolean isOnline = true;
-        System.out.println(isStudent);
 
+        boolean isStudent = true;
+        boolean forSale = true;
+        boolean isOnline = true;
+
+//
+//       if(isStudent){
+//           System.out.println("You are a student");
+//       }else {
+//           System.out.println("You are NOT a student");
+//       }
+
+        String name = "Mariam Adewunmi";
+        String  favoriteFood = "yam";
+        String email ="fake123@gmail.com";
+        String car = "Mustang";
+        String favoriteColor ="red";
+
+        System.out.println("Your choice is a "+favoriteColor+"color"+" "+year+" "+car);
+        System.out.println("The price is: "+currency+price);
+        if (forSale){
+            System.out.println("There is a "+car+" for sale");
+        }else {
+            System.out.println("There is no "+car+" for sale");
+        }
 
 
     }
+
+    //Assignment
+    //Write 5 variable an int,char,string.boolean.double
+    String name =" Bergen";
+    int quantity = 5;
+    double price = 3500.50;
+    char currency = '$';
+    boolean isBergen = true;
 
 }
